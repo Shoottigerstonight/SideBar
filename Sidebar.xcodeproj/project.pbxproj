@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD321FD01E80FC1300A61F0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD321FCF1E80FC1300A61F0B /* main.m */; };
+		FD321FD31E80FC1300A61F0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD321FD21E80FC1300A61F0B /* AppDelegate.m */; };
+		FD321FD61E80FC1300A61F0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD321FD51E80FC1300A61F0B /* ViewController.m */; };
+		FD321FD91E80FC1300A61F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD321FD71E80FC1300A61F0B /* Main.storyboard */; };
+		FD321FDB1E80FC1300A61F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD321FDA1E80FC1300A61F0B /* Assets.xcassets */; };
+		FD321FDE1E80FC1300A61F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD321FDC1E80FC1300A61F0B /* LaunchScreen.storyboard */; };
+		FD321FE91E80FC1300A61F0B /* SidebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD321FE81E80FC1300A61F0B /* SidebarTests.m */; };
+		FD321FF41E80FC1300A61F0B /* SidebarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD321FF31E80FC1300A61F0B /* SidebarUITests.m */; };
+		FD3220061E81151200A61F0B /* HYXSideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3220051E81151200A61F0B /* HYXSideBar.m */; };
+		FD532A191E8266C700D8C3DC /* SidebarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD532A181E8266C700D8C3DC /* SidebarCell.m */; };
+		FDDAC18D1E95CBD7006ECC5B /* SideBarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDAC18C1E95CBD7006ECC5B /* SideBarHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD321FE51E80FC1300A61F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD321FC31E80FC1300A61F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD321FCA1E80FC1300A61F0B;
+			remoteInfo = Sidebar;
+		};
+		FD321FF01E80FC1300A61F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD321FC31E80FC1300A61F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD321FCA1E80FC1300A61F0B;
+			remoteInfo = Sidebar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD321FCB1E80FC1300A61F0B /* Sidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD321FCF1E80FC1300A61F0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD321FD11E80FC1300A61F0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD321FD21E80FC1300A61F0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD321FD41E80FC1300A61F0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD321FD51E80FC1300A61F0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD321FD81E80FC1300A61F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD321FDA1E80FC1300A61F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD321FDD1E80FC1300A61F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD321FDF1E80FC1300A61F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD321FE41E80FC1300A61F0B /* SidebarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD321FE81E80FC1300A61F0B /* SidebarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarTests.m; sourceTree = "<group>"; };
+		FD321FEA1E80FC1300A61F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD321FEF1E80FC1300A61F0B /* SidebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD321FF31E80FC1300A61F0B /* SidebarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarUITests.m; sourceTree = "<group>"; };
+		FD321FF51E80FC1300A61F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3220041E81151200A61F0B /* HYXSideBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYXSideBar.h; sourceTree = "<group>"; };
+		FD3220051E81151200A61F0B /* HYXSideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYXSideBar.m; sourceTree = "<group>"; };
+		FD532A171E8266C700D8C3DC /* SidebarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarCell.h; sourceTree = "<group>"; };
+		FD532A181E8266C700D8C3DC /* SidebarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarCell.m; sourceTree = "<group>"; };
+		FDDAC18B1E95CBD7006ECC5B /* SideBarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarHeaderView.h; sourceTree = "<group>"; };
+		FDDAC18C1E95CBD7006ECC5B /* SideBarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD321FC81E80FC1300A61F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD321FE11E80FC1300A61F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD321FEC1E80FC1300A61F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD321FC21E80FC1300A61F0B = {
+			isa = PBXGroup;
+			children = (
+				FD321FCD1E80FC1300A61F0B /* Sidebar */,
+				FD321FE71E80FC1300A61F0B /* SidebarTests */,
+				FD321FF21E80FC1300A61F0B /* SidebarUITests */,
+				FD321FCC1E80FC1300A61F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD321FCC1E80FC1300A61F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD321FCB1E80FC1300A61F0B /* Sidebar.app */,
+				FD321FE41E80FC1300A61F0B /* SidebarTests.xctest */,
+				FD321FEF1E80FC1300A61F0B /* SidebarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD321FCD1E80FC1300A61F0B /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				FD321FD11E80FC1300A61F0B /* AppDelegate.h */,
+				FD321FD21E80FC1300A61F0B /* AppDelegate.m */,
+				FD321FD41E80FC1300A61F0B /* ViewController.h */,
+				FD321FD51E80FC1300A61F0B /* ViewController.m */,
+				FD3220041E81151200A61F0B /* HYXSideBar.h */,
+				FD3220051E81151200A61F0B /* HYXSideBar.m */,
+				FD532A171E8266C700D8C3DC /* SidebarCell.h */,
+				FD532A181E8266C700D8C3DC /* SidebarCell.m */,
+				FDDAC18B1E95CBD7006ECC5B /* SideBarHeaderView.h */,
+				FDDAC18C1E95CBD7006ECC5B /* SideBarHeaderView.m */,
+				FD321FD71E80FC1300A61F0B /* Main.storyboard */,
+				FD321FDA1E80FC1300A61F0B /* Assets.xcassets */,
+				FD321FDC1E80FC1300A61F0B /* LaunchScreen.storyboard */,
+				FD321FDF1E80FC1300A61F0B /* Info.plist */,
+				FD321FCE1E80FC1300A61F0B /* Supporting Files */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		FD321FCE1E80FC1300A61F0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD321FCF1E80FC1300A61F0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD321FE71E80FC1300A61F0B /* SidebarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD321FE81E80FC1300A61F0B /* SidebarTests.m */,
+				FD321FEA1E80FC1300A61F0B /* Info.plist */,
+			);
+			path = SidebarTests;
+			sourceTree = "<group>";
+		};
+		FD321FF21E80FC1300A61F0B /* SidebarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD321FF31E80FC1300A61F0B /* SidebarUITests.m */,
+				FD321FF51E80FC1300A61F0B /* Info.plist */,
+			);
+			path = SidebarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD321FCA1E80FC1300A61F0B /* Sidebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD321FF81E80FC1300A61F0B /* Build configuration list for PBXNativeTarget "Sidebar" */;
+			buildPhases = (
+				FD321FC71E80FC1300A61F0B /* Sources */,
+				FD321FC81E80FC1300A61F0B /* Frameworks */,
+				FD321FC91E80FC1300A61F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sidebar;
+			productName = Sidebar;
+			productReference = FD321FCB1E80FC1300A61F0B /* Sidebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD321FE31E80FC1300A61F0B /* SidebarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD321FFB1E80FC1300A61F0B /* Build configuration list for PBXNativeTarget "SidebarTests" */;
+			buildPhases = (
+				FD321FE01E80FC1300A61F0B /* Sources */,
+				FD321FE11E80FC1300A61F0B /* Frameworks */,
+				FD321FE21E80FC1300A61F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD321FE61E80FC1300A61F0B /* PBXTargetDependency */,
+			);
+			name = SidebarTests;
+			productName = SidebarTests;
+			productReference = FD321FE41E80FC1300A61F0B /* SidebarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD321FEE1E80FC1300A61F0B /* SidebarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD321FFE1E80FC1300A61F0B /* Build configuration list for PBXNativeTarget "SidebarUITests" */;
+			buildPhases = (
+				FD321FEB1E80FC1300A61F0B /* Sources */,
+				FD321FEC1E80FC1300A61F0B /* Frameworks */,
+				FD321FED1E80FC1300A61F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD321FF11E80FC1300A61F0B /* PBXTargetDependency */,
+			);
+			name = SidebarUITests;
+			productName = SidebarUITests;
+			productReference = FD321FEF1E80FC1300A61F0B /* SidebarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD321FC31E80FC1300A61F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "今晚打老虎";
+				TargetAttributes = {
+					FD321FCA1E80FC1300A61F0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4TT2XH3PYW;
+						ProvisioningStyle = Automatic;
+					};
+					FD321FE31E80FC1300A61F0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4TT2XH3PYW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD321FCA1E80FC1300A61F0B;
+					};
+					FD321FEE1E80FC1300A61F0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4TT2XH3PYW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD321FCA1E80FC1300A61F0B;
+					};
+				};
+			};
+			buildConfigurationList = FD321FC61E80FC1300A61F0B /* Build configuration list for PBXProject "Sidebar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD321FC21E80FC1300A61F0B;
+			productRefGroup = FD321FCC1E80FC1300A61F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD321FCA1E80FC1300A61F0B /* Sidebar */,
+				FD321FE31E80FC1300A61F0B /* SidebarTests */,
+				FD321FEE1E80FC1300A61F0B /* SidebarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD321FC91E80FC1300A61F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD321FDE1E80FC1300A61F0B /* LaunchScreen.storyboard in Resources */,
+				FD321FDB1E80FC1300A61F0B /* Assets.xcassets in Resources */,
+				FD321FD91E80FC1300A61F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD321FE21E80FC1300A61F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD321FED1E80FC1300A61F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD321FC71E80FC1300A61F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD321FD61E80FC1300A61F0B /* ViewController.m in Sources */,
+				FD3220061E81151200A61F0B /* HYXSideBar.m in Sources */,
+				FDDAC18D1E95CBD7006ECC5B /* SideBarHeaderView.m in Sources */,
+				FD321FD31E80FC1300A61F0B /* AppDelegate.m in Sources */,
+				FD532A191E8266C700D8C3DC /* SidebarCell.m in Sources */,
+				FD321FD01E80FC1300A61F0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD321FE01E80FC1300A61F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD321FE91E80FC1300A61F0B /* SidebarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD321FEB1E80FC1300A61F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD321FF41E80FC1300A61F0B /* SidebarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD321FE61E80FC1300A61F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD321FCA1E80FC1300A61F0B /* Sidebar */;
+			targetProxy = FD321FE51E80FC1300A61F0B /* PBXContainerItemProxy */;
+		};
+		FD321FF11E80FC1300A61F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD321FCA1E80FC1300A61F0B /* Sidebar */;
+			targetProxy = FD321FF01E80FC1300A61F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD321FD71E80FC1300A61F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD321FD81E80FC1300A61F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD321FDC1E80FC1300A61F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD321FDD1E80FC1300A61F0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD321FF61E80FC1300A61F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD321FF71E80FC1300A61F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD321FF91E80FC1300A61F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = Sidebar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.Sidebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD321FFA1E80FC1300A61F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = Sidebar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd.Sidebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD321FFC1E80FC1300A61F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = SidebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.SidebarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sidebar.app/Sidebar";
+			};
+			name = Debug;
+		};
+		FD321FFD1E80FC1300A61F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = SidebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.SidebarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sidebar.app/Sidebar";
+			};
+			name = Release;
+		};
+		FD321FFF1E80FC1300A61F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = SidebarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.SidebarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sidebar;
+			};
+			name = Debug;
+		};
+		FD3220001E80FC1300A61F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4TT2XH3PYW;
+				INFOPLIST_FILE = SidebarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.SidebarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sidebar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD321FC61E80FC1300A61F0B /* Build configuration list for PBXProject "Sidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD321FF61E80FC1300A61F0B /* Debug */,
+				FD321FF71E80FC1300A61F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD321FF81E80FC1300A61F0B /* Build configuration list for PBXNativeTarget "Sidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD321FF91E80FC1300A61F0B /* Debug */,
+				FD321FFA1E80FC1300A61F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD321FFB1E80FC1300A61F0B /* Build configuration list for PBXNativeTarget "SidebarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD321FFC1E80FC1300A61F0B /* Debug */,
+				FD321FFD1E80FC1300A61F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD321FFE1E80FC1300A61F0B /* Build configuration list for PBXNativeTarget "SidebarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD321FFF1E80FC1300A61F0B /* Debug */,
+				FD3220001E80FC1300A61F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD321FC31E80FC1300A61F0B /* Project object */;
+}
